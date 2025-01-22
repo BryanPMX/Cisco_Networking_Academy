@@ -4,6 +4,23 @@
 
   Contributor: Bryan Perez
   
+  Project Description:
+
+	* Developed an interactive console-based Tic Tac Toe game in Python to simulate a classic two-player game with a focus on fundamental programming constructs and user interaction.
+	* Implemented game logic to handle user moves, computer moves using simple random selection, and checks for game-ending conditions.
+ 
+	Key Features:
+
+	* Dynamic Board Display: Utilized a multi-dimensional list (array) to manage the game board state and displayed it in a user-friendly format, updating after each move.
+	* Input Validation: Ensured robust user input handling to prevent errors due to invalid moves or occupied cells, enhancing the user experience.
+	* Win Condition Checks: Programmed the application to evaluate board status for win conditions after each move, including checks across rows, columns, and diagonals.
+	* Computer Opponent Logic: Integrated basic artificial intelligence for the computer's moves, allowing the computer to select random free spaces, simulating a naive opponent.
+	
+ 	Outcome:
+
+	* Successfully implemented a complete game loop that includes alternating turns between the user and the computer, checking for end-game conditions, and declaring a winner or a tie.
+	* Strengthened proficiency in Python, particularly in areas of array manipulation, loops, conditionals, and user input handling.
+  
 """
 
 from random import randrange
